@@ -1,7 +1,7 @@
 var express=require("express");
 var app=express();
 var todoController=require("./controllers/todoController");//require the controller
-var port= preocess.env.PORT || 3000;
+var port= process.env.PORT || 3000;
 
 //setting up the basic
 app.set("view engine", "ejs");//set up template engine
