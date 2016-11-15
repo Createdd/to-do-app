@@ -4,6 +4,7 @@
   "description": "",
   "main": "app.js",
   "scripts": {
+    "start":"node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "me",
@@ -11,6 +12,7 @@
   "dependencies": {
     "body-parser": "^1.15.2",
     "ejs": "^2.5.2",
-    "express": "^4.14.0"
+    "express": "^4.14.0",
+    "mongoose": "^4.6.7"
   }
 }
